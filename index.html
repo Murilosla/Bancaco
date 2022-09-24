@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Imagens/284780.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <title>Bancaco</title>
+  </head>
+  <body class="body">
+    <nav class="navbar bg-black">
+      <form class="container-fluid">
+        <div>
+          <button
+            class="btn btn-outline-warning me-2"
+            type="button"
+            onclick="banco()"
+          >
+            Começar transações
+          </button>
+
+          <span class="navbar-item p-3" style="color: white">
+            Oii,
+            <span id="nome"> -não cadastrado- </span>
+          </span>
+        </div>
+
+        <div style="text-align: center"> 
+          <img
+              src="./Imagens/284780.png"
+              alt=""
+              height="70"
+              width="70"
+            />
+          </div>
+
+        <div class="navbar-item mr-auto">
+          <img
+            src="https://www.eniac.com.br/hs-fs/hubfs/Logos-Eniac-2019-1.png?width=1150&name=Logos-Eniac-2019-1.png"
+            alt=""
+            height="70"
+          />
+        </div>
+      </form>
+    </nav>
+
+    <h4>
+    <div style="text-align: left">
+
+      <h1>Bancaco</h1>
+      <h2>Seu banco com moedas digitais de bananas!</h2>
+
+      <br /><br />
+
+      <h1>
+        Seu saldo:
+      </h1>
+       <h2>
+        <div id="saldo">(Não possui)</div>
+       </h2> 
+      
+
+      <br/>
+
+      <h1>Histórico de transações:</h1>
+      <h2>
+        <div id="hist">(Não possui)</div>
+      </h2>
+       
+      
+    </div>
+    </h4>
+
+    <script src="media.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

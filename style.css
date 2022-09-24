@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(246, 255, 0);
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  padding-left: 20px;
+}
+
+.body {
+  background-image: url(https://thumbs.dreamstime.com/b/bananas-maduras-no-fundo-preto-9028148.jpg);
+background-repeat: no-repeat;
+background-size:cover; 
+}
+
+.branco {
+  color: white;
+}
